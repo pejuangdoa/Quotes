@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Card</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #ffffff;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 7px 4px;
+        }
+
+        .quote-card {
+            background-color: #141320;
+            color: #ffffff;
+            width: 100%;
+            max-width: 600px;
+            padding: 24px 22px 30px;
+            border-radius: 11px;
+        }
+
+        .quote-text {
+            font-size: 21px;
+            font-style: italic;
+            line-height: 1.48;
+            font-weight: 400;
+            color: #65e6f4;
+        }
+
+        .quote-mark {
+            background: linear-gradient(
+                90deg,
+                #ffe65c,
+                #ffb75c,
+                #65e6f4
+            );
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .quote-author {
+            margin-top: 20px;
+            text-align: right;
+            color: #ff2878;
+            font-size: 16px;
+            font-style: italic;
+        }
+
+        @media (max-width: 480px) {
+            .quote-card {
+                padding: 20px 18px 25px;
+            }
+
+            .quote-text {
+                font-size: 18px;
+            }
+
+            .quote-author {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="quote-card">
+        <p class="quote-text">
+            <span class="quote-mark">“</span>Balas Dendam Terbaik adalah Sukses Besar<span class="quote-mark">”</span>
+            <span class="quote-mark">”</span>
+        </p>
+
+        <p class="quote-author">– pejuang do'a</p>
+    </div>
+
+</body>
+</html>
